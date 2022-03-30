@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mhv.apps.gudmilan.MainActivity">
+    <!--android:background="@color/colorPrimaryDark">-->
+
+    <RelativeLayout
+        android:background="@color/orange"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/headermale"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="27dp"
+            android:text="वर के नाम का पहला अक्षर चूने"/>
+
+
+
+    </RelativeLayout>
+
+
+
+    <ScrollView
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingBottom="120px"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/one"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"
+                android:gravity="center"
+                android:text="चू. चे.   चो. ला."
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/two"
+                android:layout_marginLeft="85dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="ली. लू.   ले. लो."/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/three"
+                android:layout_marginLeft="170dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="21dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="अ.इ."/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/four"
+                android:layout_marginLeft="255dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="21dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="उ. ए."/>
+
+
+
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/five"
+                android:layout_below="@id/one"
+                android:layout_marginTop="10dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="ओ. वा.   वी. वू."/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/six"
+                android:layout_below="@id/one"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="85dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="21dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="वे. वो."/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seven"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/one"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonbackground"
+                android:gravity="center"
+                android:text="का. की."
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="21dp"
+
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/eight"
+                android:layout_below="@id/one"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="255dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="कु. घ.    ड. छ."/>
+
+
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/nine"
+                android:layout_below="@id/five"
+                android:layout_marginTop="10dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="21dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="के. को."/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ten"
+                android:layout_below="@id/five"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="85dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="21dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="ही. हा."/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/eleven"
+                android:layout_below="@id/five"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="170dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="हू. हे.     हो. डा."/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/twelve"
+                android:layout_below="@id/five"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="255dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="डी. डू.   डे. डो."/>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/thirteen"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/nine"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonbackground"
+                android:gravity="center"
+                android:text="मा. मी.   मु. मे."
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/fourteen"
+                android:layout_below="@id/nine"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="85dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="मो. टा.   टी. टू."/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/fiveteen"
+                android:layout_below="@id/nine"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="170dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="21dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="टे.  टो"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sixteen"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/nine"
+                android:layout_marginLeft="255dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonbackground"
+                android:gravity="center"
+                android:text="पा. पी."
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="21dp"
+
+                android:textStyle="bold" />
+
+
+
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seventeen"
+                android:layout_below="@id/thirteen"
+                android:layout_marginTop="10dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="पू. ष.     ण. ठ."/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/eighteen"
+                android:layout_below="@id/thirteen"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="85dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="21dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="पे. पो."/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/nineteen"
+                android:layout_below="@id/thirteen"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="170dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="21dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="रा. री."/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/twenty"
+                android:layout_below="@id/thirteen"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="255dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="रू. रे.     रो. ता."/>
+
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/twentyone"
+                android:layout_below="@id/seventeen"
+                android:layout_marginTop="10dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="21dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="ती. तू."/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_below="@id/seventeen"
+                android:layout_marginTop="10dp"
+                android:id="@+id/twentytwo"
+                android:layout_marginLeft="85dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="21dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="ते. तो."/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_below="@id/seventeen"
+                android:layout_marginTop="10dp"
+                android:id="@+id/twentythree"
+                android:layout_marginLeft="170dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="ना. नी.   नू. ने."/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_below="@id/seventeen"
+                android:layout_marginTop="10dp"
+                android:id="@+id/twentyfour"
+                android:layout_marginLeft="255dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="नो. या.   यि. यू."/>
+
+
+
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/twentyfive"
+                android:layout_below="@id/twentyone"
+                android:layout_marginTop="10dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="ये. यो.   भा. भी."/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_below="@id/twentyone"
+                android:layout_marginTop="10dp"
+                android:id="@+id/twentysix"
+                android:layout_marginLeft="85dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="21dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="भू. ध. "/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_below="@id/twentyone"
+                android:layout_marginTop="10dp"
+                android:id="@+id/twentyeight"
+                android:layout_marginLeft="170dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="21dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="भे. भो."/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/twentynine"
+                android:layout_below="@id/twentyone"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="255dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="21dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="जा. जी."/>
+
+
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/thirty"
+                android:layout_below="@id/twentyfive"
+                android:layout_marginTop="10dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="21dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="खी. खू."/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_below="@id/twentyfive"
+                android:layout_marginTop="10dp"
+                android:id="@+id/thirtytwo"
+                android:layout_marginLeft="85dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="21dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="गा. गी."/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_below="@id/twentyfive"
+                android:layout_marginTop="10dp"
+                android:id="@+id/thirtythree"
+                android:layout_marginLeft="170dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="21dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="गू. गे."/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_below="@id/twentyfive"
+                android:layout_marginTop="10dp"
+                android:id="@+id/thirtyfour"
+                android:layout_marginLeft="255dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="गो. सा.   सी. सू."/>
+
+
+
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/thirtyfive"
+                android:layout_below="@id/thirty"
+                android:layout_marginTop="10dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="21dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="से. सो."/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/thirtysix"
+                android:layout_below="@id/thirty"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="85dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="21dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="दा. दी."/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/thirtyseven"
+                android:layout_below="@id/thirty"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="170dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="दू. थ.     झ. त्र."/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/thirtyeight"
+                android:layout_below="@id/thirty"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="255dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="दे. दो.   चा. ची."/>
+
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/twentyseven"
+                android:layout_below="@id/thirtyfive"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="42dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="21dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="फ. ढ."/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/thirtyone"
+                android:layout_below="@id/thirtyfive"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="214dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/buttonbackground"  android:textStyle="bold"
+                android:textSize="21dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="खे. खो."/>
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

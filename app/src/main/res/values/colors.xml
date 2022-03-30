@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1d1d1d</color>
+    <color name="colorPrimaryDark">#70092C</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="back">#4f453e</color>
+    <color name="white">#BBBABA</color>
+    <color name="red">#e62525</color>
+    <color name="blacklight">#212121</color>
+    <color name="green">#BBBABA</color>
+    <color name="blc">#343434</color>
+    <color name="orange">#D17494</color>
+    <!--<color name="orange">#D55C85</color>-->
+</resources>

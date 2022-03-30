@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.mhv.apps.gudmilan.ResultActivity">
+
+    <TextView
+        android:id="@+id/qw"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="गणना का परिणाम"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/white"
+        android:layout_below="@id/qw"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="© Mahavir Ojha"/>
+
+
+
+    <TextView
+        android:id="@+id/textnadi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="50dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="वर और वधू की नाडी एक है....अतः उनका विवाह नही हो सकता"/>
+
+
+    <RelativeLayout
+        android:id="@+id/gun"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="150dp">
+
+        <ImageView
+            android:id="@+id/imgg"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/circle_green"/>
+
+        <TextView
+            android:id="@+id/gunatext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="27"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="100dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/longtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:gravity="center"
+            android:layout_below="@id/imgg"
+            android:layout_marginTop="10dp"
+            android:textSize="27dp"
+            android:text=""
+            android:textColor="@color/colorPrimaryDark"/>
+
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
